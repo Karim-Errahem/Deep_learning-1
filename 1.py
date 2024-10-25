@@ -1,6 +1,6 @@
 import cv2
 import tensorflow
-img = cv2.imread('images/balcem.jpg')
+img = cv2.imread('images/employee.png')
 im = cv2.resize(img, (1024, 576))
 classnames = [] # array
 classfile  = 'files/thing.names'
